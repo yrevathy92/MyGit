@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title is displayedFacebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title is displayedInstagram]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title is displayedLogin on Twitter]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title is displayedSign Up | LinkedIn]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95923" started-at="2018-05-23T10:10:50Z" finished-at="2018-05-23T10:12:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95923" started-at="2018-05-23T10:10:50Z" finished-at="2018-05-23T10:12:26Z">
+      <class name="tests.Test2">
+        <test-method status="PASS" signature="testLaunchBrowser()[pri:0, instance:tests.Test2@1fee20c]" name="testLaunchBrowser" is-config="true" duration-ms="4967" started-at="2018-05-23T15:41:15Z" finished-at="2018-05-23T15:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchBrowser -->
+        <test-method status="PASS" signature="testFacebookHome()[pri:0, instance:tests.Test2@1fee20c]" name="testFacebookHome" duration-ms="25431" started-at="2018-05-23T15:41:20Z" finished-at="2018-05-23T15:41:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title is displayedInstagram]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebookHome -->
+        <test-method status="PASS" signature="testCloseBrowser()[pri:0, instance:tests.Test2@1fee20c]" name="testCloseBrowser" is-config="true" duration-ms="788" started-at="2018-05-23T15:41:46Z" finished-at="2018-05-23T15:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseBrowser -->
+      </class> <!-- tests.Test2 -->
+      <class name="tests.Test1">
+        <test-method status="PASS" signature="testLaunchBrowser()[pri:0, instance:tests.Test1@1b6a447]" name="testLaunchBrowser" is-config="true" duration-ms="7733" started-at="2018-05-23T15:40:50Z" finished-at="2018-05-23T15:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchBrowser -->
+        <test-method status="PASS" signature="testFacebookHome()[pri:0, instance:tests.Test1@1b6a447]" name="testFacebookHome" duration-ms="16278" started-at="2018-05-23T15:40:58Z" finished-at="2018-05-23T15:41:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title is displayedFacebook – log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebookHome -->
+        <test-method status="PASS" signature="testCloseBrowser()[pri:0, instance:tests.Test1@1b6a447]" name="testCloseBrowser" is-config="true" duration-ms="781" started-at="2018-05-23T15:41:14Z" finished-at="2018-05-23T15:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseBrowser -->
+      </class> <!-- tests.Test1 -->
+      <class name="tests.Test4">
+        <test-method status="PASS" signature="testLaunchBrowser()[pri:0, instance:tests.Test4@3e6358]" name="testLaunchBrowser" is-config="true" duration-ms="4689" started-at="2018-05-23T15:42:10Z" finished-at="2018-05-23T15:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchBrowser -->
+        <test-method status="PASS" signature="testFacebookHome()[pri:0, instance:tests.Test4@3e6358]" name="testFacebookHome" duration-ms="10933" started-at="2018-05-23T15:42:15Z" finished-at="2018-05-23T15:42:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title is displayedSign Up | LinkedIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebookHome -->
+        <test-method status="PASS" signature="testCloseBrowser()[pri:0, instance:tests.Test4@3e6358]" name="testCloseBrowser" is-config="true" duration-ms="705" started-at="2018-05-23T15:42:25Z" finished-at="2018-05-23T15:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseBrowser -->
+      </class> <!-- tests.Test4 -->
+      <class name="tests.Test3">
+        <test-method status="PASS" signature="testLaunchBrowser()[pri:0, instance:tests.Test3@4a765]" name="testLaunchBrowser" is-config="true" duration-ms="5997" started-at="2018-05-23T15:41:46Z" finished-at="2018-05-23T15:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchBrowser -->
+        <test-method status="PASS" signature="testFacebookHome()[pri:0, instance:tests.Test3@4a765]" name="testFacebookHome" duration-ms="16890" started-at="2018-05-23T15:41:52Z" finished-at="2018-05-23T15:42:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title is displayedLogin on Twitter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebookHome -->
+        <test-method status="PASS" signature="testCloseBrowser()[pri:0, instance:tests.Test3@4a765]" name="testCloseBrowser" is-config="true" duration-ms="684" started-at="2018-05-23T15:42:09Z" finished-at="2018-05-23T15:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseBrowser -->
+      </class> <!-- tests.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
